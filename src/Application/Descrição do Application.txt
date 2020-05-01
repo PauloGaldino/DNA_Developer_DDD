@@ -1,0 +1,7 @@
+Esta camada fica responsável por cuidar da comunicação com o domínio.
+Serve como uma ponte para ligar os serviços e o domínio
+
+Conteúdo:
+-Classes de serviços de aplicação;
+-Data transport Objects;
+-AutoMapper.

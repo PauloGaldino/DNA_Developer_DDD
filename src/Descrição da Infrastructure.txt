@@ -1,0 +1,4 @@
+Esta camada é responsável pelo suporte das demais camadas.	
+Ela é dividia em duas camadas :
+DATA;
+CrossCuttings.	

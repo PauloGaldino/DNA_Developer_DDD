@@ -1,0 +1,1 @@
+Esta camada é responsável pelas inversões de controle e injeções de dependência

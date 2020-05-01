@@ -1,0 +1,7 @@
+Esta camada fica responsável por manter a modelage sólida.
+
+Conteúdo:
+-Entidades;
+-Interfaces de contrato e serviços;
+-Repositórios;
+-Validações.
