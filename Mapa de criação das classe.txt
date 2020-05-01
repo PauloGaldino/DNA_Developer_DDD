@@ -1,0 +1,48 @@
+Sequencia de riação
+1 primero cria as entidades 
+2-cria o contexto volta no dominio core 
+3-cria as interfaces do repositorio 
+4-cria o repositorio na camada de infraestrutura
+5-cria a o reositorio do cliente
+6-cria o repositório do produto
+7-cria a interface de serviço base no Domain.Core
+8-cria a interface de serviço no Domain.Core para o Cliente.
+9-cria a interface de serviço no Domain.Core para o Produto.
+10-cria o serviço base no Domain.Service para implementar os métodos da interface de serviço do Domain.Core
+11-cria o serviço do Cliente no Domain.Service para implementar os métodos do repositório da InfraStructure e as interfaces de serviço do Domain.Core
+11-cria o serviço do Produto no Domain.Service para implementar os métodos do repositório da InfraStructure e as interfaces de serviço do Domain.Core
+
+    1.1 Domain
+	1.1.1-Classes Dominio
+	1.1.1.1 cria classes no dominio
+	1.1.1.2 -Base->Classe pai que conterá os Ids
+	1.1.2.1 - Cliente ->Herda o id de Base e contém os métodos e atributos para o cliente.
+	1.1.3 .1- Produto ->Herda o id de Base e contém os metodo e atributos de produto.
+
+	1.2 Domain.Core
+	1.2.1 -Interface base no repositório do domínio.
+	1.2.1.1 -Interface base que contém os métodos base de 'CRUD' para serem implementados no sistema.
+	1.2.1.2-Interfece do Cliente para implementar o métodos da interface base.
+	1.2.1.3 -Interface do Produto  para implementar o métodos da interface base.
+	
+	1.2.2 -Interfaces de Serviço
+	1.2.2.1-cria a interface base no serviço do domínio que contém os métodos e atributos de 'CRUD'.
+	1.2.2.2-cria a interface de serviço do cliente para implementar os métodos da interface de serviço.
+	1.2.2.3-cria a interface de serviço do produto para implementar os métodos da interface de serviço.
+
+	1.2.3 Domain.Service
+	1.2.3.1-Serviços base do Domínio de serviço.
+	1.2.3.2-cria o serviço base no dominio de serviço para implementar a interface base do Domain>Core e os metodos do repositório base da Infrastructure.
+	1.2.3.3-cria o serviço do cliente no Domain.Service  para implementar a interface base do Domain>Core e os metodos do repositório base da Infrastructure. 
+	1..23.3-cria o serviço do produto no Domain.Service  para implementar a interface base do Domain>Core e os metodos do repositório base da Infrastructure.
+
+	2 Infrastruture
+	2.1.1-Classe Contexto
+	2.1.1.1 cria classe sqlContex->Herda Classe entityFramWork e contem os metodos e atributos para a persistência no banco
+
+	2.2 Repositório base
+	2.2.1 cria o reposítorio base para implementar a interface de repositório do Domain.Core e injete o base do sql para  implemetação dos metodos de persistencia no banco
+	2.2.2 cria o reposítorio cliente para implementar a interface de repositório do Domain.Core e injete o base do sql para persistencia no banco
+	2.2.3 cria o reposítorio base para implementar a interface de repositório do Domain.Core e injete o base do sql para persistencia no banco
+	
+	

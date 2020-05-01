@@ -27,11 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domains", "3-Domains", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{7AEE3773-0EC4-44A9-AFC9-F4D6B1D7D61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNA_API", "src\DNA_API\DNA_API.csproj", "{11636CC3-8295-4C6E-B95A-F76D4D307BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNA_API", "src\DNA_API\DNA_API.csproj", "{11636CC3-8295-4C6E-B95A-F76D4D307BF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{87AB8DDD-AC18-4907-AA79-59F5C2906621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Application\Application.csproj", "{87AB8DDD-AC18-4907-AA79-59F5C2906621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{97FFE1BD-FA78-4BA8-8F96-35D36DE8615C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain.csproj", "{97FFE1BD-FA78-4BA8-8F96-35D36DE8615C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1-Domain.Cores", "3.1-Domain.Cores", "{CA52E6DA-57E7-4CE4-A10A-AF430219A7A2}"
 EndProject
@@ -40,11 +40,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2-Domain.Services", "3.2-
 		src\Domain.Service\Descrição Domain Service.txt = src\Domain.Service\Descrição Domain Service.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Service", "src\Domain.Service\Domain.Service.csproj", "{B0FBED1B-FF5C-4926-B1F1-5BC7C3CA1959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Service", "src\Domain.Service\Domain.Service.csproj", "{B0FBED1B-FF5C-4926-B1F1-5BC7C3CA1959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Core", "src\Domain.Core\Domain.Core.csproj", "{4C4BC33A-6FC1-42C2-AEA3-E29BF2CE7B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Core", "src\Domain.Core\Domain.Core.csproj", "{4C4BC33A-6FC1-42C2-AEA3-E29BF2CE7B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{3C4FDF1A-99FE-4F0A-A866-0FD36CC93E92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{3C4FDF1A-99FE-4F0A-A866-0FD36CC93E92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{F0E13C8A-8ED8-4640-AA84-F2E9F93D47CB}"
+	ProjectSection(SolutionItems) = preProject
+		Mapa de criação das classe.txt = Mapa de criação das classe.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +98,7 @@ Global
 		{B0FBED1B-FF5C-4926-B1F1-5BC7C3CA1959} = {ED186288-62C2-4FEE-9CDC-DFA3258A7BE2}
 		{4C4BC33A-6FC1-42C2-AEA3-E29BF2CE7B5B} = {CA52E6DA-57E7-4CE4-A10A-AF430219A7A2}
 		{3C4FDF1A-99FE-4F0A-A866-0FD36CC93E92} = {7AEE3773-0EC4-44A9-AFC9-F4D6B1D7D61C}
+		{F0E13C8A-8ED8-4640-AA84-F2E9F93D47CB} = {5A04AD25-F983-486D-9F74-9BFE26C24205}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB052012-72EB-48CE-AF8F-98D5879962D3}
